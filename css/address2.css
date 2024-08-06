@@ -1,0 +1,254 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Header */
+.w-10 {
+    width: 10%;
+}
+.container1 {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-color-position {
+    color: #a21a1a;
+  
+    margin-bottom:-78px;
+    border-bottom:1px solid #F5F5F6;
+}
+.display-logo {
+    float: left;
+    height: inherit;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+}
+.logo {
+    width: 111px;
+    height: 61px;
+    vertical-align: middle;
+    padding: 0;
+    margin:0 -11px;
+    cursor: pointer;
+}
+
+.checkout-steps {
+    margin: 0 0 0 34% ;
+    width: 40%;
+    color: #696B79;
+    padding: 0;
+    line-height: 20px;
+}
+.bag-add-pay-2 {
+    color: #20BD99; 
+    border-bottom: 2px solid #20BD99;
+    letter-spacing: 3px;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 0 10px;
+    cursor: default;
+}
+.bag-add-pay-1 {
+    color: #696B79;
+    letter-spacing: 3px;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 0 10px;
+    cursor: default;
+}
+.bag-add-pay-3 {
+    color: #696B79;
+    letter-spacing: 3px;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 0 10px;
+    cursor: default;    
+}
+.divider {
+    display: inline-block;
+    border-top: 1px dashed #696B79;
+    height: 4px;
+    margin-top: 14px;
+    width: 10%;
+}
+.secureContainer {
+    float: right;
+    max-height: 78px;
+    margin-left: 150px;
+}
+.secure {
+    float: right;
+    letter-spacing: 3px;
+    color: #535766;
+    margin: 0 20px 0 0;
+    font-size: 12px;
+}
+.desktop-base-cartLayout {
+    max-width: 980px;
+    margin: auto;
+    padding: 0 10px 16px;
+    min-height: 320px;
+    color: #282c3f;
+    margin-top: 5.2%;
+    
+}
+
+/* delivery address */
+.add-new-address{
+    margin-left: 18%;
+}
+.add-new-address a{
+    border: 1px solid #000000;
+    text-decoration: none;
+    color: #535766;
+    margin-left: 48%;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+}
+.add-new-address p , .price-details h6{
+    font-size: 12px;
+    font-weight: 700;
+    margin: 20px 0 16px;
+    color: #535766;
+}
+.address-card {
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.address-card .name {
+    font-weight: bold;
+    margin: 0 22px;
+    color: #333;
+}
+.address-card .home-tag {
+    color: #00c853;
+    font-weight: bold;
+    border: 1px solid #00c853;
+    margin-left: unset;
+    border-radius: 25px;
+    padding: 1px 10px;
+    font-size: 10px;
+}
+.address-card .address,
+.address-card .mobile,
+.address-card .pay-on-delivery {
+    margin: 15px 35px;
+    font-size: 12px;
+}
+.address-card .btn {
+    margin-right: 10px;
+}
+.add-new-address {
+    cursor: pointer;
+}
+.update{
+    padding: 15px;
+}
+.update button{
+    padding: 5px 19px;
+    font-size: 12px;
+    color: #282c3f;
+    border: 1px solid #535766;
+    border-radius: 5px;
+    font-weight: 600;
+    background-color: #fff;
+    margin-left: 20px;
+    margin-right: -15px;
+}
+.checkbox{
+    border: 2px solid #FF3F6C;
+    border-radius: 50%;
+    width: 16px;
+    height: 15px;
+}
+.checkbox2{
+    background-color: #FF3F6C;
+    border-radius: 50%;
+    padding: 0px;
+    width: 8px;
+    height: 8px;
+    margin: 2px;
+}
+.right-border{
+    border-right: 1px solid #696B79;
+    height: 110%;
+    
+}
+/* DELIVERY ESTIMATES */
+
+.priceBlock-container {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    max-width: 300px;
+}
+.priceBlock-container p {
+    margin: 8px -35px;
+    display: flex;
+    justify-content: space-between;
+}
+.priceBlock-container span {
+    margin-left: auto;
+}
+.priceBlock-container a {
+    text-decoration: none;
+    color: #ff4081;
+    margin-left: -104px;
+    font-weight: 700;
+}
+.priceBlock-container a:hover {
+    text-decoration: underline;
+}
+.priceBlock-container .strike {
+    text-decoration: line-through;
+}
+.priceBlock-container .highlight {
+    color: red;
+}
+.priceBlock-container .free {
+    color: #20BD99;
+}
+.place-order-3 a{
+    background-color: #E93D67;
+    color: white;
+    text-decoration: none;
+    padding: 10px 130px;
+    font-weight: 600;
+    margin-left: -31px;
+    margin-right: -40px;
+}
+
+.place-order-3 a:hover{
+    background-color: #e93d68f7;
+}
+.horizontal-filters-base{
+    width: 100%;
+    user-select: none;
+    border-bottom: 1px solid #eaeaec;
+}
+.price-details{
+    border-left: 1px solid #e3e3e3;
+    padding: 35px 0; 
+}
+.col{
+    margin-bottom: 20px;
+}
+.content {
+    max-width: 980px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+footer a{
+    color: #282c3f;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 14%;
+    font-size: 15px;
+}

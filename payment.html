@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/Payment.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="icon" href="images/logo.png" type="icon" />
+    <link rel="stylesheet" href="fonts/remixicon.css" />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <title>Payment Options</title>
+</head>
+
+<body>
+    <header class="header-color-position">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid" style="margin-bottom: -12px;">
+                <!-- Logo -->
+                <div class="display-logo">
+                    <a class="navbar-brand" href="#">
+                        <img class="logo" src="images/logo.png" alt="Logo" />
+                    </a>
+                </div>
+                <!-- bag -->
+                <div class="collapse navbar-collapse">
+                    <ol class="navbar-nav checkout-steps" style="margin-bottom: 18px;">
+                        <li class="nav-item">
+                            <a class="bag-add-pay-1" aria-current="page" href="bag.html">BAG</a>
+                        </li>
+                        <li class="nav-item divider"></li>
+                        <li class="nav-item">
+                            <a class="bag-add-pay-2" href="#">ADDRESS</a>
+                        </li>
+                        <li class="nav-item divider"></li>
+                        <li class="nav-item">
+                            <a class="bag-add-pay-3" href="#">PAYMENT</a>
+                        </li>
+                    </ol>
+                    <div class="secureContainer">
+                        <img src="images/sprite-secure.png" style="margin: -7px 5px 0 0;" class="secureIcon" width="26"
+                            height="28">
+                        <div class="secure">100% SECURE</div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container desktop-base-cartLayout ">
+        <div class="row">
+            <div class="col-lg-7" style="margin-left: 8%;">
+                <div class="available">
+                    <div class="offer" style="margin-right: 16%; margin-top: 25px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                            class="offersV2-base-discountIcon">
+                            <g fill="#000" fill-rule="evenodd">
+                                <path
+                                    d="M15.292 10.687v.001c-.198.742.076 1.454.296 2.026l.045.12-.137.021c-.602.094-1.352.211-1.892.75-.538.54-.655 1.288-.748 1.89l-.022.138a22.096 22.096 0 0 1-.12-.045c-.443-.171-.946-.364-1.49-.364-.185 0-.366.023-.536.068-.728.194-1.198.78-1.577 1.249-.032.04-.07.088-.111.137l-.112-.138c-.378-.47-.848-1.054-1.575-1.248a2.092 2.092 0 0 0-.537-.068c-.543 0-1.046.193-1.49.364l-.12.045-.022-.138c-.093-.602-.21-1.35-.749-1.89-.539-.539-1.289-.656-1.891-.75l-.137-.022a15 15 0 0 1 .045-.118c.22-.573.494-1.286.296-2.027-.194-.728-.78-1.199-1.25-1.577L1.323 9l.137-.11c.47-.38 1.055-.85 1.249-1.577.198-.742-.076-1.455-.296-2.028l-.045-.118.137-.022c.602-.094 1.352-.211 1.891-.75.54-.539.656-1.289.75-1.891l.022-.137.119.045c.443.171.947.365 1.49.365.186 0 .367-.024.537-.07.727-.193 1.198-.778 1.576-1.248L9 1.322l.111.137c.379.47.85 1.055 1.576 1.249.17.045.352.069.537.069.544 0 1.047-.194 1.491-.365l.119-.045.022.137c.094.602.21 1.353.75 1.891.538.539 1.288.656 1.89.75l.138.022-.046.119c-.22.572-.494 1.285-.295 2.026.194.728.778 1.199 1.248 1.577.04.033.088.07.137.111l-.137.11c-.47.38-1.054.85-1.249 1.577M18 9c0-.744-1.459-1.286-1.642-1.972-.19-.71.797-1.907.437-2.529-.364-.63-1.898-.372-2.41-.884-.511-.511-.253-2.045-.883-2.41a.647.647 0 0 0-.33-.08c-.585 0-1.403.542-1.998.542a.778.778 0 0 1-.201-.025C10.286 1.46 9.743 0 9 0c-.744 0-1.286 1.459-1.972 1.642a.78.78 0 0 1-.2.025c-.596 0-1.414-.542-2-.542a.647.647 0 0 0-.33.08c-.63.365-.37 1.898-.883 2.41-.512.512-2.046.254-2.41.884-.36.62.627 1.819.437 2.529C1.46 7.714 0 8.256 0 9s1.459 1.286 1.642 1.972c.19.71-.797 1.908-.437 2.53.364.63 1.898.371 2.41.883.511.512.253 2.045.884 2.41.097.056.208.08.33.08.585 0 1.403-.542 1.998-.542a.78.78 0 0 1 .201.025C7.714 16.54 8.256 18 9 18s1.286-1.46 1.973-1.642a.774.774 0 0 1 .2-.025c.595 0 1.413.542 1.998.542a.647.647 0 0 0 .33-.08c.631-.365.373-1.898.884-2.41.512-.512 2.046-.254 2.41-.884.36-.62-.627-1.819-.437-2.529C16.54 10.286 18 9.744 18 9">
+                                </path>
+                                <path
+                                    d="M10.897 6.34l-4.553 4.562a.536.536 0 0 0 .76.758l4.552-4.562a.536.536 0 0 0-.76-.758M6.75 7.875a1.126 1.126 0 0 0 0-2.25 1.126 1.126 0 0 0 0 2.25M11.25 10.125a1.126 1.126 0 0 0 0 2.25 1.126 1.126 0 0 0 0-2.25">
+                                </path>
+                            </g>
+                        </svg>
+                        <div class="offersV2-base-title">
+                            Available Offers
+                        </div>
+                        <div>
+                            <li class="offersV2-base-message  my-3">
+                                <span>10% Instant Discount upto ₹1000 on RBL Credit Cards on a min spend of ₹3,000.
+                                    TCA</span>
+                            </li>
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed"
+                                            style="padding-right: 70%; padding-top: 1px;" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                            aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Show more
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <div>
+                                                <li class="offersV2-base-message ">
+                                                    <span>10% Instant Discount upto ₹1000 on RBL Credit Cards on a
+                                                        min spend of ₹3,000. TCA</span>
+                                                </li>
+                                                <li class="offersV2-base-message ">
+                                                    <span>10% Instant Discount upto ₹1000 on BOB Credit Cards on a
+                                                        min spend of ₹3,000. TCA</span>
+                                                </li>
+                                                <li class="offersV2-base-message ">
+                                                    <span>10% Instant Discount upto ₹1200 on HDFC Credit and Debit
+                                                        Card EMI on a min spend of ₹6,000. TCA</span>
+                                                </li>
+                                                <li class="offersV2-base-message ">
+                                                    <span>7.5% Instant Discount on every spends with Myntra Kotak
+                                                        Credit Card. TCA</span>
+                                                </li>
+                                                <li class="offersV2-base-message ">
+                                                    <span>Get Assured Cashback up to ₹200 on Paytm UPI on a min
+                                                        spend of ₹500. TCA</span>
+                                                </li>
+                                                <li class="offersV2-base-message ">
+                                                    <span>Get Upto ₹250 cashback for your first RuPay Credit Card
+                                                        transaction via Google Pay on Myntra on a min. spend of ₹500
+                                                        . TCA</span>
+                                                </li>
+                                                <li class="offersV2-base-message ">
+                                                    <span>Get Cashback up to ₹500 on Paytm on transaction with RuPay
+                                                        Credit card via UPI on a min spend of ₹1000. TCA</span>
+                                                </li>
+                                                <li class="offersV2-base-message ">
+                                                    <span>Get Cashback up to ₹500 on PhonePe on transaction with
+                                                        RuPay Credit card via UPI or UPI Lite on a min spend of
+                                                        ₹1000. TCA</span>
+                                                </li>
+                                                <li class="offersV2-base-message ">
+                                                    <span>Get Cashback up to ₹1000 on CRED UPI (Android Device only)
+                                                        on a min spend of ₹1000. TCA</span>
+                                                </li>
+                                                <li class="offersV2-base-message ">
+                                                    <span>Get Cashback up to ₹300 on Mobikwik UPI on a min spend of
+                                                        ₹1500. TCA</span>
+                                                </li>
+                                                <li class="offersV2-base-message ">
+                                                    <span>Flat ₹30 Cashback on Freecharge UPI (Android Devices only)
+                                                        on a minimum spend of ₹1,999. TCA</span>
+                                                </li>
+                                                <li class="offersV2-base-message ">
+                                                    <span>Upto ₹300 Cashback on LazyPay Transaction on a minimum
+                                                        spend of ₹999. TCA</span>
+                                                </li>
+                                                <li class="offersV2-base-message ">
+                                                    <span>Get ₹100 Brand Voucher on transaction with PayZapp on a
+                                                        min spend of ₹1000. TCA</span>
+                                                </li>
+                                                <li class="offersV2-base-message ">
+                                                    <span>Get upto 15% Cashback on Mobikwik Wallet transaction on a
+                                                        min spend of ₹1500. Use Code MBK15 on Mobikwik. TCA</span>
+                                                </li>
+                                                <li class="offersV2-base-message ">
+                                                    <span>Flat ₹75 Cashback on First Ever Mobikwik Wallet
+                                                        transaction on Myntra on a min spend of ₹999. Use Code
+                                                        MBKNEW on Mobikwik. TCA</span>
+                                                </li>
+                                                <li class="offersV2-base-message ">
+                                                    <span>Flat ₹100 on Airtel Payments Bank transactions on a min
+                                                        spend of ₹1,000. TCA</span>
+                                                </li>
+                                                <div class="offersV2-base-more ">
+                                                    <span class=" ">Show Less</span>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="7" height="12"
+                                                        viewBox="0 0 7 12" class="offersV2-base-arrowIcon"
+                                                        style="transform: rotate(-90deg);">
+                                                        <path fill-rule="evenodd"
+                                                            d="M6.797 5.529a.824.824 0 0 0-.042-.036L1.19.193a.724.724 0 0 0-.986 0 .643.643 0 0 0 0 .94L5.316 6 .203 10.868a.643.643 0 0 0 0 .938.724.724 0 0 0 .986 0l5.566-5.299a.644.644 0 0 0 .041-.978">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Payment mod -->
+
+                <div class="payment-mod">
+                    <div class="payment">
+                        <h6> Choose Payment Mode </h6>
+                    </div>
+                    <div class="offer" style="margin-right: 16%;">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="payment-name" style="    background-color: #fff;
+                            border-left: 5px solid #ff3f6c;
+                            border-right: 0;
+                            border-top: 0;">
+                                    <div class="paymentOptions-base-tabDisplayIcon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                            viewBox="0 0 14 14">
+                                            <path fill="none" fill-rule="nonzero" stroke="#000"
+                                                d="M6.918 11.185L4.05 12.993l-.278-4.327-2.57-2.33L5.086 4.71 6.39 1.499l2.652 3.318 3.368.299-2.228 3.706.765 3.432-4.03-1.069z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <a href="#" class="Recommended" style="color: #ff3f6c;">Recommended</a>
+                                </div>
+                                <div class="payment-name">
+                                    <div class="paymentOptions-base-tabDisplayIcon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14"
+                                            viewBox="0 0 24 16">
+                                            <g fill="none" fill-rule="evenodd" transform="rotate(-6 29.622 -5.581)">
+                                                <path stroke="#000"
+                                                    d="M19.938 1.386l1.03.072a1 1 0 0 1 .928 1.067l-.697 9.976a1 1 0 0 1-1.068.927L1.988 11.946">
+                                                </path>
+                                                <rect width="20" height="12" stroke="#000" rx="1"></rect>
+                                                <path fill="#000" fill-rule="nonzero"
+                                                    d="M10.622 10l.744-.36-2.27-2.38c.216-.039.427-.101.633-.188.206-.086.394-.199.563-.336.17-.138.317-.3.441-.488.125-.188.214-.4.267-.637h1v-.798h-.992a1.612 1.612 0 0 0-.067-.234 2.82 2.82 0 0 0-.24-.5 1.462 1.462 0 0 0-.146-.204H12V3H8.122v.875h.559c.218 0 .414.025.588.075.174.05.325.117.454.204a1.276 1.276 0 0 1 .508.659h-2.11v.798h2.09c-.07.173-.179.32-.324.442a1.96 1.96 0 0 1-.488.298 3.005 3.005 0 0 1-1.063.23L8 7.198 10.622 10z">
+                                                </path>
+                                                <path stroke="#000"
+                                                    d="M3 0c-.167.833-.5 1.5-1 2s-1.167.833-2 1M3 12c-.167-.833-.5-1.5-1-2S.833 9.167 0 9M17 0c.167.833.5 1.5 1 2s1.167.833 2 1M17 12c.167-.833.5-1.5 1-2s1.167-.833 2-1">
+                                                </path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <a href="#">Cash On Delivery (Cash/UPI) </a>
+                                </div>
+                                <div class="payment-name">
+                                    <div class="paymentOptions-base-tabDisplayIcon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"
+                                            viewBox="0 0 20 14">
+                                            <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+                                                <rect width="18" height="12" stroke="#000" rx="1"></rect>
+                                                <path fill="#000" fill-rule="nonzero"
+                                                    d="M5.236 9.088c1.336 0 2.328-.744 2.328-2.28V3.48H6.188v3.344c0 .704-.312 1.112-.936 1.112-.616 0-.936-.416-.936-1.128V3.48H2.94v3.336c0 1.544.944 2.272 2.296 2.272zM9.876 9V7.168h.352c1.336 0 2.224-.64 2.224-1.888 0-1.2-.824-1.8-2.168-1.8H8.508V9h1.368zm.304-2.864h-.32V4.512h.344c.608 0 .92.264.92.792 0 .568-.336.832-.944.832zM14.524 9V3.48h-1.368V9h1.368z">
+                                                </path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <a href="#">UPI (Pay via any App) <span class="fw-bold">1 Offer</span> </a>
+                                </div>
+                                <div class="payment-name">
+                                    <div class="paymentOptions-base-tabDisplayIcon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"
+                                            viewBox="0 0 20 14">
+                                            <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+                                                <rect width="18" height="12" stroke="#000" rx="1"></rect>
+                                                <path fill="#000" d="M0 3h18v2H0z"></path>
+                                                <rect width="7" height="1" x="2" y="8" fill="#000" rx=".5"></rect>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <a href="#">Credit/Debit Card <span class="fw-bold">5 Offers</span></a>
+                                </div>
+                                <div class="payment-name">
+                                    <div class="paymentOptions-base-tabDisplayIcon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16"
+                                            viewBox="0 0 20 17">
+                                            <g fill="#000" fill-rule="nonzero">
+                                                <path stroke="#000" stroke-width=".3"
+                                                    d="M17.594 6.297V3.484a1.76 1.76 0 0 0-1.758-1.757h-4.369l.008-.315a1 1 0 0 0-.987-1.025L5.218.32H4.165C3.582.32 3.11.793 3.11 1.375v.352h-.351A1.76 1.76 0 0 0 1 3.484v10.758C1 15.212 1.789 16 2.758 16h10.758a1.76 1.76 0 0 0 1.722-1.406h.598a1.76 1.76 0 0 0 1.758-1.758v-.914h.351c.582 0 1.055-.473 1.055-1.055V7.703c0-.775-.63-1.406-1.406-1.406zm.703 1.406a.703.703 0 0 1-.703.703V7c.387 0 .703.315.703.703zM15.836 2.43c.582 0 1.055.473 1.055 1.054v4.922h-1.618v-2.11a1.76 1.76 0 0 0-1.406-1.722L11.5 4.6l-.033-2.17h4.369zM9.437 4.54V1.022h1.055c.194 0 .352.158.352.352v3.164H9.438zm-2.109 0V1.022h1.406V4.54H7.328zM3.812 1.374c0-.194.158-.352.352-.352h2.461V4.54H3.812V1.375zM2.758 2.43h.351v2.11h-.276c-.581 0-1.13-.422-1.13-1.056 0-.581.473-1.054 1.055-1.054zm10.758 12.867H2.758a1.056 1.056 0 0 1-1.055-1.055V5.624a1.76 1.76 0 0 0 1.406 1.722v6.852a1.76 1.76 0 0 0 1.758 1.758h6.852c.173 0 .341-.023.503-.066a1.055 1.055 0 0 1-.466.11zm2.758-1.406a1.055 1.055 0 0 1-1.055 1.055h-.598a1.76 1.76 0 0 0 1.055-1.619V8.484h1.618v3.343a1.055 1.055 0 0 1-1.055 1.055zm-9.477-2.527v-.84a.176.176 0 0 0-.176-.176h-1.76a.176.176 0 0 0-.176.176v.84c0 .097.079.176.176.176h1.76c.097 0 .176-.079.176-.176zm3.516 0v-.84a.176.176 0 0 0-.176-.176h-1.76a.176.176 0 0 0-.176.176v.84c0 .097.079.176.176.176h1.76c.097 0 .176-.079.176-.176zm-1.406 1.758v-.84a.176.176 0 0 0-.176-.176H5.969a.176.176 0 0 0-.176.176v.84c0 .097.079.176.176.176h1.76c.097 0 .176-.079.176-.176zm3.516 0v-.84a.176.176 0 0 0-.176-.176H9.485a.176.176 0 0 0-.176.176v.84c0 .097.079.176.176.176h1.76c.097 0 .176-.079.176-.176z">
+                                                </path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <a href="#"> Wallets <span class="fw-bold">4 Offers</span></a>
+                                </div>
+                                <div class="payment-name">
+                                    <div class="paymentOptions-base-tabDisplayIcon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16"
+                                            viewBox="0 0 18 16">
+                                            <g fill="none" fill-rule="evenodd">
+                                                <rect width="18" height="12" y="4" stroke="#000" rx="1"></rect>
+                                                <path fill="#000" d="M0 6h18v4H0z"></path>
+                                                <path fill="#000" fill-rule="nonzero"
+                                                    d="M2.5 1h2V0h-2C1.12 0 0 .896 0 2v1h1V2c0-.6.413-1 1.5-1zM16 2c0-.6-.413-1-1.5-1h-2v1h2c.88 0 1.5.4 1.5 1v1h1V2zM6.5 0h5v1h-5z">
+                                                </path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <a href="#"> Pay Later</a>
+                                </div>
+                                <div class="payment-name">
+                                    <div class="paymentOptions-base-tabDisplayIcon "><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="18" height="16"
+                                            viewBox="0 0 18 18" prefix="">
+                                            <g fill="none" fill-rule="evenodd" transform="translate(0 1)">
+                                                <path stroke="#000" stroke-width="1.125"
+                                                    d="M13.52 4.5h2.23c.621 0 1.125.504 1.125 1.125v6.75c0 .621-.504 1.125-1.125 1.125H2.25a1.125 1.125 0 0 1-1.125-1.125v-6.75c0-.621.504-1.125 1.125-1.125h2.256">
+                                                </path>
+                                                <path fill="#000"
+                                                    d="M.844 14.625H6.75c0 .31.252.563.563.563h3.375c.31 0 .562-.252.562-.563h5.906a.844.844 0 1 1 0 1.688H.844a.844.844 0 1 1 0-1.688z">
+                                                </path>
+                                                <circle cx="9" cy="4.5" r="4.5" stroke="#000" stroke-width="1.125">
+                                                </circle>
+                                                <path fill="#000" fill-rule="nonzero"
+                                                    d="M9.466 7.4l.558-.258-1.702-1.7c.162-.027.32-.072.475-.133.154-.062.295-.142.422-.24.127-.1.237-.215.33-.35.094-.133.161-.285.201-.454h.75v-.57h-.744a1.11 1.11 0 0 0-.05-.167 1.963 1.963 0 0 0-.18-.357 1.048 1.048 0 0 0-.11-.146H10.5V2.4H7.591v.625h.42c.163 0 .31.018.44.053.13.036.244.084.341.146a.94.94 0 0 1 .381.47H7.591v.57h1.567a.799.799 0 0 1-.243.317c-.11.087-.231.158-.366.213a2.362 2.362 0 0 1-.797.165l-.252.439L9.466 7.4z">
+                                                </path>
+                                            </g>
+                                        </svg></div>
+                                    <a href="#"> EMI</a>
+                                </div>
+                                <div class="payment-name">
+                                    <div class="paymentOptions-base-tabDisplayIcon "><svg
+                                            xmlns="http://www.w3.org/2000/svg" width="18" height="16"
+                                            viewBox="0 0 18 16" prefix="">
+                                            <g fill="none" fill-rule="evenodd">
+                                                <path stroke="#000" stroke-width="1.125"
+                                                    d="M1.498 6.625h15.048a.112.112 0 0 0 .069-.201L9.605 1 1.437 6.419a.112.112 0 0 0 .062.206z">
+                                                </path>
+                                                <path fill="#000"
+                                                    d="M3.375 7.188H4.5v6.187H3.375V7.75zM6.75 7.188h1.125v6.187H6.75zM10.125 7.188h1.125v6.187h-1.125zM13.5 7.188h1.125v6.187H13.5zM1.727 13.375h14.546c.376 0 .727.188.936.501l.558.837a.225.225 0 0 1-.187.35H.42a.225.225 0 0 1-.187-.35l.558-.837c.209-.313.56-.501.936-.501z">
+                                                </path>
+                                            </g>
+                                        </svg></div>
+                                    <a href="#">Net Banking</a>
+                                </div>
+                            </div>
+
+
+                            <!DOCTYPE html>
+                            <html lang="en">
+
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>Payment Options</title>
+                                <link rel="stylesheet" href="styles.css">
+                            </head>
+
+                            <body>
+                                <div class="col-lg-7">
+                                    <div class="Recommended-Payment-Options">
+                                        <h6 style="margin-bottom: 30px;">Recommended Payment Options</h6>
+
+                                        <div class="cash-on-delivery d-flex">
+                                            <input type="checkbox">
+                                            <span style="font-weight: 700; padding-left: 5px; padding-top: 10px;">Cash
+                                                on Delivery (Cash/UPI)</span>
+                                            <div class="paymentOptions-base-tabDisplayIcon cash">
+                                                <!-- SVG Icon -->
+                                            </div>
+                                        </div>
+                                        <div class="container11" id="container">
+                                            <!-- Initial numbers will be placed randomly on page load -->
+                                        </div>
+                                        <span>
+                                            <div class="refresh position-relative top-0 left-40px"
+                                                onclick="refreshNumbers()">
+                                                <i class="ri-restart-line"></i>
+                                            </div>
+                                        </span>
+                                        <div class="input-code">
+                                            <input type="text" id="captcha-input"
+                                                placeholder="Enter code shown in above image*" maxlength="5">
+                                            <div class="my-3">You can pay via Cash/ UPI on delivery</div>
+                                            <a href="#" id="place-order-btn">PLACE ORDER</a>
+                                        </div>
+
+                                        <div class="phone-pay d-flex my-3">
+                                            <input type="checkbox">
+                                            <span
+                                                style="font-weight: 700; padding-left: 5px; padding-top: 6px;">PhonePe</span>
+                                            <svg style="margin-left: 62%; border: 1px solid #e3e3e3; border-radius: 50%; width: 40px;"
+                                                viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"
+                                                fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round"
+                                                stroke-miterlimit="2">
+                                                <circle cx="-25.926" cy="41.954" r="29.873" fill="#5f259f"
+                                                    transform="rotate(-76.714 -48.435 5.641) scale(8.56802)" />
+                                                <path
+                                                    d="M372.164 189.203c0-10.008-8.576-18.593-18.584-18.593h-34.323l-78.638-90.084c-7.154-8.577-18.592-11.439-30.03-8.577l-27.17 8.577c-4.292 1.43-5.723 7.154-2.862 10.007l85.8 81.508H136.236c-4.293 0-7.154 2.861-7.154 7.154v14.292c0 10.016 8.585 18.592 18.592 18.592h20.015v68.639c0 51.476 27.17 81.499 72.931 81.499 14.292 0 25.739-1.431 40.03-7.146v45.753c0 12.87 10.016 22.886 22.885 22.886h20.015c4.293 0 8.577-4.293 8.577-8.586V210.648h32.893c4.292 0 7.145-2.861 7.145-7.145v-14.3zM280.65 312.17c-8.576 4.292-20.015 5.723-28.591 5.723-22.886 0-34.324-11.438-34.324-37.176v-68.639h62.915v100.092z"
+                                                    fill="#fff" fill-rule="nonzero" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Popup Modal -->
+                                <div id="order-success-modal" class="modal">
+                                    <div class="modal-content">
+                                        <span class="close">&times;</span>
+                                        <p>Your Delivery Successfully Ordered</p>
+                                    </div>
+                                </div>
+
+                                <script src="scripts.js"></script>
+                            </body>
+
+                            </html>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="priceBlock-container desktop-base-cartLayout">
+                    <p style="font-weight: 600;">PRICE DETAILS (1 Item)</p>
+                    <p>Total MRP <span>₹2,499</span></p>
+                    <p>Discount on MRP <span class="free">-₹1,400</span></p>
+                    <p>Platform Fee <span><a href="#" style="margin-left: -115px;">Know More</a></span> <span
+                            class="free">FREE</span></p>
+                    <p>Shipping Fee <span><a href="#">Know More</a></span> <span><span class="strike">₹79</span> <span
+                                class="free">FREE</span></span></p>
+                    <p style="font-size: 12px; color: #505052;">Free shipping for you</p>
+                    <div class="my-4 horizontal-filters-base"></div>
+                    <div class="place-oder">
+                        <p style="font-weight: 700; font-size: 14px;" class="my-4">Total Amount <span
+                                style="margin-left: 50%;">₹1,099</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+    <script>
+        let correctCaptcha;
+        
+        function getRandomInt(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+        
+        function getRandomNumbers(count, min, max) {
+            const numbers = [];
+            for (let i = 0; i < count; i++) {
+                numbers.push(getRandomInt(min, max));
+            }
+            return numbers;
+        }
+        
+        function placeNumbers(numbers) {
+            const container = document.getElementById('container');
+            container.innerHTML = ''; // Clear the container
+            console.log(numbers);
+        
+            numbers.forEach(number => {
+                const div = document.createElement('div');
+                div.className = 'number';
+                div.textContent = number;
+                div.style.top = getRandomInt(0, 80) + 'px'; // Random top position within container
+                div.style.left = getRandomInt(0, 180) + 'px'; // Random left position within container
+                container.appendChild(div);
+            });
+        }
+        
+        function refreshNumbers() {
+            const numbers = getRandomNumbers(5, 1, 9); // Generate 5 random numbers between 1 and 9
+            placeNumbers(numbers);
+            return numbers.join(''); // Return the concatenated string of numbers
+        }
+        // Initial placement on page load
+        correctCaptcha = refreshNumbers();
+        alert(correctCaptcha);
+        
+        // Get the modal
+        var modal = document.getElementById("order-success-modal");
+        
+        // Get the button that opens the modal
+        var btn = document.getElementById("place-order-btn");
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks on the button, open the modal if captcha is correct
+        btn.onclick = function(event) {
+            event.preventDefault(); // Prevent default anchor behavior
+            var userInput = document.getElementById("captcha-input").value.trim();
+            if (userInput === correctCaptcha) {
+                modal.style.display = "block";
+            } else {
+                alert("Captcha is wrong");
+                console.log(userInput);
+            }
+        }
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        
+        // Update captcha on refresh icon click
+        document.querySelector('.refresh').onclick = function() {
+            correctCaptcha = refreshNumbers();
+        }
+        </script>
+        
+</body>
+
+</html>

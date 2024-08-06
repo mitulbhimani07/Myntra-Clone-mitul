@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 5000px;
+    padding-top: 103px;
+    
+}
+.box-shadow{
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05);;
+}
+.w-10{
+    width: 10%;
+}
+.container1 {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.fixed-top{
+    background-color: #ffff !important;
+}
+.header-color {
+  
+    color: #a21a1a;
+    top: 0;
+    right: 0;
+    position: fixed;
+    left: 0;
+    z-index: 10;
+    margin-bottom: 0px;
+    -webkit-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05);
+    box-shadow: 0 4px 12px 0 rgba(10, 10, 10, 0.19);
+}
+.display-logo{
+    float: left;
+    height: inherit;
+    margin-left: 2%;
+    
+    margin-right: 2%;
+    margin-top: 1%;
+}
+.logo {
+    width: 111px;
+    height: 61px; 
+      
+   /* size: 10px; */
+    /* padding-right: 41px; */
+   
+    
+    vertical-align: middle;
+    padding: 0;
+    margin: -10px;
+    cursor: pointer;
+
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 12px;
+    font-weight: 700;
+    color: #282c3f;
+    text-align: center;
+    padding: 8px 15px;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: #000000;
+}
+
+
+.new-label {
+    color: #ff3f6c;
+    font-weight: bold;
+    font-size: 9px;
+    margin-left: 5px;
+}
+
+.search-bar {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar .input-group {
+    width: 520px;
+}
+
+.search-bar .form-control {
+    border-radius: 3px !important;
+    border-radius: 0;
+    border-left: 0;
+}
+
+.search-bar .input-group-text {
+    background-color: #fff;
+    border-right: 0;
+    border-color: transparent !important;
+}
+
+.search-bar .form-control:hover {
+    background-color: #fff !important;
+    transition: all 0.2s linear;
+}
+.icons{
+    padding-right: 35px;
+}
+.nav-item a i {
+    font-size: 20px;
+}
+
+.fs-size {
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+/* .navbar-nav .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+} */
+
+.Deals {
+    width: 98%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.slick-dots li button:before {
+    font-size: 50px !important;
+    content: '.' !important;
+}
+.aaa img{
+    height: auto;
+    width: 100%;
+}
+
+/* footer */
+
+
+
+footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+footer h6 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+footer ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+footer ul li ,.desktop-product a ,.content ol li{
+    font-size: 14px;
+}
+
+footer .fw-bold {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+footer .store-badge.play-store {
+    width: 139.82px;
+    height: 42px;
+    margin-right: 10px;
+}
+
+footer .store-badge.app-store {
+    width: 122.54px;
+    height: 42px;
+    margin-right: 10px;
+}
+
+footer a img.social-icon {
+    margin-right: 10px;
+}
+
+footer .original img {
+    margin-left: -10px;
+    margin-right: 10px;
+    width: 47.5px;
+    height: 40px;
+}
+footer .mt-2{
+        margin-top: .5rem !important;
+}
+footer .row{
+    --bs-gutter-x: 0.5rem   !important;
+    --bs-gutter-y: -2.5rem !important;
+}
+footer .desktop-product a::after{
+    content: "|";
+    margin-left: 3px;
+    
+
+}
+.desktop-product a , .list-unstyled li{
+    text-decoration: none;
+    color: #696b79;
+}
+.popular .row{
+    --bs-gutter-x: -8.5rem   !important;
+    --bs-gutter-y: -2.5rem !important;
+}
+.popular-searches {
+          
+    font-size: 14px;
+    color: #000;
+    position: relative;
+    padding-bottom: 5px;
+}
+.popular-searches::after {
+    content: "";
+    width: 86%;
+    height: 1px;
+    background-color: #ccc;
+    position: absolute;
+    top: 6px;
+    left: 150px;
+
+}
+.bm .col-lg-3{
+        width: 24.33%;
+    margin-top: 20px;
+    margin-left: 113px;
+}
+.online-shop p{
+    font-size: 14px;
+    color: #000;
+    position: relative;
+    padding-bottom: 5px;
+}
+.online-shop p::after{
+    width: 86%;
+    height: 1px;
+    background-color: #ccc;
+    position: absolute;
+    top: 6px;
+    left: 150px;
+}
+
+.content ol {
+    padding-left: 20px;
+}
+.content ol li {
+    margin-bottom: 20px;
+}
+.content ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 40px;
+}
+.content ul li:before {
+    content: "•";
+    position: absolute;
+    left: 23px;
+    color: #888888;
+}
